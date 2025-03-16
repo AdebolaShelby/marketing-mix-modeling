@@ -1,1 +1,1 @@
-# marketing-mix-modeling
+# Media Mix Modeling (MMM)
