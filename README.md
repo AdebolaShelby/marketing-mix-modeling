@@ -1,7 +1,7 @@
 # Media Mix Modeling (MMM)
 
 ## Project Overview
-This Media Mix Modeling (MMM) project analyzes the impact of various marketing channels on overall sales using historical data from Google Ads and Google Analytics 4 (GA4). The model helps understand channel contributions to sales and optimize marketing strategies through advanced statistical analysis and machine learning techniques.
+* This Media Mix Modeling (MMM) project analyzes the impact of various marketing channels on overall sales using historical data from Google Ads and Google Analytics 4 (GA4). The model helps understand channel contributions to sales and optimize marketing strategies through advanced statistical analysis and machine learning techniques.
 
 ## Data Sources
 - **Google Ads Data**: Campaign performance metrics (costs, clicks, impressions)
