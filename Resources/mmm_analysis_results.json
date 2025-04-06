@@ -1,0 +1,89 @@
+{
+  "model_performance": {
+    "linear": {
+      "cv_mean": -968.6559377559464,
+      "cv_std": 1924.892415455248,
+      "r2": 0.1850981812658855,
+      "feature_importance": null
+    },
+    "random_forest": {
+      "cv_mean": -43.36572863334483,
+      "cv_std": 53.06526147313369,
+      "r2": 0.7746001315959813,
+      "feature_importance": {
+        "Sessions": 0.03272799090160985,
+        "Engaged sessions": 0.028344886553174263,
+        "Event count": 0.03192757292322622,
+        "Sessions_Lag_1": 0.04288530034683621,
+        "Sessions_Lag_3": 0.018964003766204926,
+        "Sessions_Lag_6": 0.048543519628878234,
+        "Revenue_Lag_1": 0.20945916388763045,
+        "Revenue_Lag_3": 0.027303041461927798,
+        "Revenue_Lag_6": 0.14350692051248098,
+        "Sessions_Rolling_3m": 0.030167978849991724,
+        "Sessions_Rolling_6m": 0.014716966326038316,
+        "Market_Share": 0.37145265484200085
+      }
+    },
+    "xgboost": {
+      "cv_mean": -109.83961039761849,
+      "cv_std": 164.40054525941198,
+      "r2": 0.9999554130795703,
+      "feature_importance": {
+        "Sessions": 0.13942234218120575,
+        "Engaged sessions": 6.0610032960539684e-05,
+        "Event count": 0.0009549470851197839,
+        "Sessions_Lag_1": 0.00018935781554318964,
+        "Sessions_Lag_3": 0.000696268689353019,
+        "Sessions_Lag_6": 0.0002007642324315384,
+        "Revenue_Lag_1": 0.16723179817199707,
+        "Revenue_Lag_3": 0.00041845854138955474,
+        "Revenue_Lag_6": 0.2670424282550812,
+        "Sessions_Rolling_3m": 0.0004112496681045741,
+        "Sessions_Rolling_6m": 0.0001785382628440857,
+        "Market_Share": 0.4231932461261749
+      }
+    },
+    "lightgbm": {
+      "cv_mean": -10.898994868493588,
+      "cv_std": 5.80947801463275,
+      "r2": 0.5797136557616472,
+      "feature_importance": {
+        "Sessions": 45,
+        "Engaged sessions": 62,
+        "Event count": 54,
+        "Sessions_Lag_1": 58,
+        "Sessions_Lag_3": 44,
+        "Sessions_Lag_6": 139,
+        "Revenue_Lag_1": 136,
+        "Revenue_Lag_3": 62,
+        "Revenue_Lag_6": 79,
+        "Sessions_Rolling_3m": 49,
+        "Sessions_Rolling_6m": 58,
+        "Market_Share": 117
+      }
+    }
+  },
+  "channel_attribution": {
+    "Direct": 0.3077101241040586,
+    "Organic Search": 0.3621343718666024,
+    "Organic Shopping": 0.004975918253130764,
+    "Organic Social": 0.02480941918059577,
+    "Organic Video": 0.0005225356071360286,
+    "Paid Other": 3.1295546907440835e-05,
+    "Paid Search": 0.26539965781803265,
+    "Paid Shopping": 0.0014225037347306581,
+    "Cross-network": 0.0329941738888057
+  },
+  "optimal_budget": {
+    "Direct": 0.0,
+    "Organic Search": 2561594.0,
+    "Organic Shopping": 2.9103830456733704e-11,
+    "Organic Social": 0.0,
+    "Organic Video": 0.0,
+    "Paid Other": 0.0,
+    "Paid Search": 0.0,
+    "Paid Shopping": 0.0,
+    "Cross-network": 0.0
+  }
+}
